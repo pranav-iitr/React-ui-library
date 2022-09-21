@@ -1,2 +1,2 @@
-# Getting Started with Create React App
+# Library for button and badge
 test for npm pacakage
