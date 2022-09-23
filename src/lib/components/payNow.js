@@ -1,6 +1,6 @@
 import React from 'react';
 import "./styles/pay.css";
-export default function PayNowCard({styles=false,head="Presented by E-Cell IITR",trigger=()=>{alert("Pay Now")}}) {
+export default function PayNowButton({styles=false,head="Presented by E-Cell IITR",trigger=()=>{alert("Pay Now")}}) {
 //   const [show, setShow] = useState(false);
   return (
     <>
