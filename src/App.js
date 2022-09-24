@@ -1,6 +1,6 @@
 
 import './App.css';
-import { PayNowCard } from './lib';
+import { PayNowButton } from './lib';
 function App() {
   // let styler={
   //   ppButton:{
@@ -9,7 +9,7 @@ function App() {
   // }
   return (
     <div className="App">
-      {/* <PayNowCard styles={styler} head='no way'/> */}
+       <PayNowButton head='no way'/> 
     </div>
   );
 }

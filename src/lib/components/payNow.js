@@ -3,8 +3,8 @@ import "./styles/pay.css";
 export default function PayNowButton({styles=false,head="Presented by E-Cell IITR",trigger=()=>{alert("Pay Now")}}) {
 //   const [show, setShow] = useState(false);
   return (
-    <>
-      {/* <PayNowPopup show={show} setshow={setShow} /> */}
+    <div className='payNowButton' >
+      
       <div
         className='pay-outer-container'
         style={styles.payOuterContainer && styles.payOuterContainer}
@@ -21,6 +21,6 @@ export default function PayNowButton({styles=false,head="Presented by E-Cell IIT
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -49,6 +49,10 @@
     margin-right: 3vh;
   }
   
+  .payNowButton :hover{
+    transform: scale(1.03);
+  }
+
   @media screen and (max-width: 540px) {
     .pp-button {
       min-width: 8rem;
