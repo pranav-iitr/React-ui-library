@@ -1,9 +1,7 @@
 //import vector from "../../../../assets/sponsor1.svg";
 import CountUp, { useCountUp } from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
-
-import Divider from '../Divider';
-
+import "./styles/counter.css";
 export const Counter = () => {
   const countertabs = [
     { number: 20, text: 'EVENTS', suffix: '+' },
@@ -25,11 +23,7 @@ export const Counter = () => {
                 </VisibilitySensor>
               )}
             </CountUp>
-            <img
-              className='landing-counter-svg'
-              src='vector.webp'
-              alt='landing counter image'
-            />
+            
             <span className='landing-counter-text'>{tab.text}</span>
           </div>
         ))}

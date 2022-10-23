@@ -1,4 +1,8 @@
 # Library for button and badge
+
+# made by 
+# [Yash Yadav](https://github.com/yash-954)
+# [Pranav Arya](https://github.com/pranav-iitr)
 ### pay now button
 #### usage
 ``` import { PayNowCard } from '@pranav-arya/pranav-test' ```

@@ -1,6 +1,7 @@
 
 import './App.css';
-import { PayNowButton } from './lib';
+import { PayNowButton, Counter } from './lib';
+
 function App() {
   // let styler={
   //   ppButton:{
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
        <PayNowButton head='no way'/> 
+       <Counter/>
     </div>
   );
 }
